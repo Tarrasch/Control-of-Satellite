@@ -7,7 +7,7 @@ J = 5;
 num = d/J*Kp;
 den = s^2 + d/J*Kd*s + d/J*Kp;
 G = num/den;
-step(G);
+step(G, 0:0.01:12);
 
 end
 
